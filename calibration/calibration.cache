@@ -1,0 +1,24 @@
+0 3ff0000000000000 3fefff2e48e8a71e
+input: 3c010204
+78: 3d90dea8
+47: 3d7c098c
+48: 3d7c098c
+81: 3d46c67f
+51: 3d3ee2ce
+52: 3d3ee2ce
+84: 3d38e3d7
+55: 3d371e11
+87: 3d4d3e49
+58: 3d4cd7e3
+59: 3d4cd7e3
+90: 3d1f2186
+62: 3d1e1d38
+93: 3d3457dc
+65: 3d3452e6
+66: 3d3452e6
+67: 3c34e5f5
+75: 3c34e5f5
+(Unnamed Layer* 24) [Shuffle]_output: 3c34e5f5
+(Unnamed Layer* 25) [Fully Connected]_output: 3d5bdd9c
+76: 3d5bdd9c
+output: 3c010a6d

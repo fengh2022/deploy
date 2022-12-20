@@ -1,0 +1,1 @@
+./trtexec --onnx=model.onnx --saveEngine=model.engine --best --workspace=4096 --minShapes=inputx:1x3x128x128 --optShapes=inputx:1x3x128x128 --maxShapes=inputx:1x3x128x128

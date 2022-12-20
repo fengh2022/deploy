@@ -1,0 +1,46 @@
+﻿生成启动时间为 2022/12/11 17:43:25。
+     1>项目“D:\prj\me\deploy\catdog\trt_cpp\trt_cpp\trt_cpp.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"F:\TensorRT-8.2.0.6\include" /I"F:\TensorRT-8.2.0.6\lib" /ID:\prj\me\deploy\catdog\trt_cpp\trt_cpp /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D WIN64 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt main.cpp trt_engine.cpp utils.cpp
+         main.cpp
+     1>F:\TensorRT-8.2.0.6\include\NvInfer.h(2695): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\TensorRT-8.2.0.6\include\NvInfer.h(4410): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\TensorRT-8.2.0.6\include\NvInfer.h(5306): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\tensorrt-8.2.0.6\samples\common\logging.h(84): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+     1>main.cpp(97): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+         main.cpp(97): note: consider using '%zd' in the format string
+         trt_engine.cpp
+     1>F:\TensorRT-8.2.0.6\include\NvInfer.h(2695): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\TensorRT-8.2.0.6\include\NvInfer.h(4410): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\TensorRT-8.2.0.6\include\NvInfer.h(5306): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\tensorrt-8.2.0.6\samples\common\logging.h(84): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+         utils.cpp
+     1>F:\TensorRT-8.2.0.6\include\NvInfer.h(2695): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\TensorRT-8.2.0.6\include\NvInfer.h(4410): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\TensorRT-8.2.0.6\include\NvInfer.h(5306): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\tensorrt-8.2.0.6\samples\common\logging.h(84): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+     1>utils.cpp(40): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+     1>utils.cpp(59): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utils.cpp(60): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utils.cpp(61): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         F:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\prj\me\deploy\catdog\trt_cpp\x64\Release\trt_cpp.exe" /NOLOGO /LIBPATH:F:\opencv\build\x64\vc15\lib /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "F:\TensorRT-8.2.0.6\lib\nvinfer.lib" opencv_world454.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudart.lib cudadevrt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\prj\me\deploy\catdog\trt_cpp\x64\Release\trt_cpp.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\prj\me\deploy\catdog\trt_cpp\x64\Release\trt_cpp.lib" /MACHINE:X64 x64\Release\kernel.cu.obj
+         x64\Release\utils.obj
+         x64\Release\main.obj
+         x64\Release\trt_engine.obj
+           正在创建库 D:\prj\me\deploy\catdog\trt_cpp\x64\Release\trt_cpp.lib 和对象 D:\prj\me\deploy\catdog\trt_cpp\x64\Release\trt_cpp.exp
+         正在生成代码
+         21 of 335 functions ( 6.3%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           16 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         trt_cpp.vcxproj -> D:\prj\me\deploy\catdog\trt_cpp\x64\Release\trt_cpp.exe
+     1>已完成生成项目“D:\prj\me\deploy\catdog\trt_cpp\trt_cpp\trt_cpp.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.36

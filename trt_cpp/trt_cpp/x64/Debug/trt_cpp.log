@@ -1,0 +1,46 @@
+﻿生成启动时间为 2022/12/11 16:35:56。
+     1>项目“D:\prj\me\deploy\catdog\trt_cpp\trt_cpp\trt_cpp.vcxproj”在节点 2 上(Build 个目标)。
+     1>AddCudaCompileDeps:
+         F:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /IF:\TensorRT-8.2.0.6\lib /IF:\TensorRT-8.2.0.6\include /ID:\prj\me\deploy\catdog\trt_cpp\trt_cpp /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" /I. /FIcuda_runtime.h /c D:\prj\me\deploy\catdog\trt_cpp\trt_cpp\kernel.cu 
+     1>项目“D:\prj\me\deploy\catdog\trt_cpp\trt_cpp\trt_cpp.vcxproj”(1)正在节点 2 上生成“D:\prj\me\deploy\catdog\trt_cpp\trt_cpp\trt_cpp.vcxproj”(1:2) (CudaBuildCore 个目标)。
+     1>CudaBuildCore:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\user\AppData\Local\Temp\tmpa9416b5e72114aebb17aff97072f2a84.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "F:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu   -I"F:\TensorRT-8.2.0.6\lib" -I"F:\TensorRT-8.2.0.6\include" -ID:\prj\me\deploy\catdog\trt_cpp\trt_cpp -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\prj\me\deploy\catdog\trt_cpp\trt_cpp\kernel.cu"
+         
+         D:\prj\me\deploy\catdog\trt_cpp\trt_cpp>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "F:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu   -I"F:\TensorRT-8.2.0.6\lib" -I"F:\TensorRT-8.2.0.6\include" -ID:\prj\me\deploy\catdog\trt_cpp\trt_cpp -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\prj\me\deploy\catdog\trt_cpp\trt_cpp\kernel.cu" 
+         kernel.cu
+     1>已完成生成项目“D:\prj\me\deploy\catdog\trt_cpp\trt_cpp\trt_cpp.vcxproj”(CudaBuildCore 个目标)的操作。
+     1>ClCompile:
+         F:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"F:\TensorRT-8.2.0.6\lib" /I"F:\TensorRT-8.2.0.6\include" /ID:\prj\me\deploy\catdog\trt_cpp\trt_cpp /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" /ZI /nologo /W3 /WX- /Od /D WIN32 /D WIN64 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt utils.cpp main.cpp trt_engine.cpp
+         trt_engine.cpp
+     1>f:\tensorrt-8.2.0.6\include\nvinfer.h(2695): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\tensorrt-8.2.0.6\include\nvinfer.h(4410): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\tensorrt-8.2.0.6\include\nvinfer.h(5306): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\tensorrt-8.2.0.6\samples\common\logging.h(84): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+         main.cpp
+     1>f:\tensorrt-8.2.0.6\include\nvinfer.h(2695): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\tensorrt-8.2.0.6\include\nvinfer.h(4410): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\tensorrt-8.2.0.6\include\nvinfer.h(5306): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\tensorrt-8.2.0.6\samples\common\logging.h(84): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+     1>d:\prj\me\deploy\catdog\trt_cpp\trt_cpp\main.cpp(24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\prj\me\deploy\catdog\trt_cpp\trt_cpp\main.cpp(25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\prj\me\deploy\catdog\trt_cpp\trt_cpp\main.cpp(26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         utils.cpp
+     1>d:\prj\me\deploy\catdog\trt_cpp\trt_cpp\utils.cpp(40): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+         正在生成代码...
+       Link:
+         F:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\prj\me\deploy\catdog\trt_cpp\x64\Debug\trt_cpp.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\opencv\build\x64\vc15\lib /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "F:\TensorRT-8.2.0.6\lib\nvinfer.lib" opencv_world454d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudart.lib cudadevrt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\prj\me\deploy\catdog\trt_cpp\x64\Debug\trt_cpp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\prj\me\deploy\catdog\trt_cpp\x64\Debug\trt_cpp.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+         x64\Debug\utils.obj
+         x64\Debug\main.obj
+         x64\Debug\trt_engine.obj
+           正在创建库 D:\prj\me\deploy\catdog\trt_cpp\x64\Debug\trt_cpp.lib 和对象 D:\prj\me\deploy\catdog\trt_cpp\x64\Debug\trt_cpp.exp
+         trt_cpp.vcxproj -> D:\prj\me\deploy\catdog\trt_cpp\x64\Debug\trt_cpp.exe
+     1>已完成生成项目“D:\prj\me\deploy\catdog\trt_cpp\trt_cpp\trt_cpp.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:07.95
